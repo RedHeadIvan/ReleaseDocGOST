@@ -1,0 +1,188 @@
+!	File containing a list of text properties for use in Mentor Graphics Design
+!       Capture.  Lines beginning with an exclamation mark are treated as
+!       comments.
+!
+!       There should be a version entry at the beginning of the file, the
+!	version is delimited by the text '*VERSION'.  DO NOT CHANGE THIS LINE.
+!       Do not add this line to existing text property files UNLESS the new
+!       property fields (font and color) are added for each text property in
+!       the file.
+!
+!	Each new text property entry is delimited by the text '*TEXTPROP'.
+!
+!	There are twelve or thirteen entries per line. They are :-
+!
+!		a) the text property type number to be defined, in the range of
+!		   1-2047. Use our text property numbers for the text properties
+!          that we have defined. Numbers in the range 1-220, 256-456 and
+!          512-1024 are reserved for use by Mentor Graphics.  Numbers in the
+!          range 221-255, 457-511, and 1025-2047 are for user defined
+!          properties.
+!
+!		b) the type of item to which this text is to be attached
+!		   where the valid entries are
+!			LOOSE = loose text attached to no object
+!			CELL  = text attached to a symbol
+!			PIN   = text attached to a symbol pin
+!			NET   = text attached to a net
+!			TRANS = text attached to a transition.
+!		   These item types may be OR'ed together to allow text
+!		   to be attached to more than one object type. Use the '|'
+!		   character to indicate OR'ing. ie NET|PIN
+!
+!		c) maximum number of characters allowed in any text string line
+!		   of this type ( when entered by the user ). The maximum is 255
+!
+!		d) the allowed character set in this string ( when typed by the
+!		   user ) defined as a regular expression. Regular expressions
+!		   can be built  up from the following "single-character" RE's:
+!			c 	Any ordinary character not listed below. An
+!				ordinary character matches itself.
+!			\  	Backslash. When followed by a special character,
+!				the RE matches the "quoted" character.
+!			. 	Dot. Matches any single character.
+!			[c...]	A non-empty string of characters, enclosed in
+!				square brackets matches any single character in
+!				the string. For example [abcdef] matches any
+!				single character from the set 'abcdef'. When the
+!				first character of a string is a caret (^), then
+!				the RE matches any character except those in the
+!				remainder of the string. For example [^12345]
+!				matches any character except '12345'. A caret
+!				in any other position is interpreted as an
+!				ordinary character.
+!			[]...]	The right square bracket does not terminate the
+!				enclosed string if it is the first character
+!				(after and initial '^', if any), in the
+!				bracketed string. In this position it is treated
+!				as an ordinary character.
+!			[l-r]	The minus sign between two characters, indicates
+!				a range of consecutive ASCII characters to
+!				match. For example, the range '[0-9]' is
+!				equivalent to the string '[0123456789]'. The '-'
+!				is treated as an ordinary character if it occurs
+!				first (or first after an initial '^) or last in
+!				the string
+!			e*	Closure (repeat) a regular expression zero or
+!				more times.
+!			e+	One or more occurrences of an expression.
+!			e?	Zero or one occurrences of an expression.
+!			e1e2	Regular expression concatenation.
+!			e1|e2	Match either e1 or e2.
+!			(...)	Regular expression may be enclosed in
+!				parenthesis to force operator precedence.
+!		   The operator precedence is '[]', '*+?', concatenation and
+!		   the operator with the lowest priority is '|'.
+!		   Some special macros have been pre-defined to ease the task
+!		   of regular expression construction. Namely:
+!		       Macro    Equivalence string
+!		       -----    ------------------
+!			\a	[A-Za-z]	any alphabetic character
+!			\n	[A-Za-z0-9]	any alphanumeric character
+!			\u	[A-Z]		any upper case character
+!			\l	[a-z]		any lower case character
+!			\d	[0-9]		any digit
+!			\e	[^ \t]		any character except white space
+!			\w  	[ \t]		any white space character
+!			\i	(0|[1-9]\d*)	any integer number
+!			\r	(\i|\i[.]\d*|[.]\d+)	any real number
+!			\f	(\r([eE][-+]?\i)?)	a floating point number
+!		   An integer is a number like 0, 1, 10, 1000000
+!		   A real number is a number like 0, 10, 10.2, 0.2, 10., .2
+!		   A floating point number is something like 5.0, 10.2e-7
+!
+!		e) the maximum number of lines allowed in this text string.
+!		   The minimum number is one, the absolute maximum allowed
+!		   is 127.
+!
+!		f) the name to be used for this text property. This name is used
+!		   by the user when selecting the text property or whenever the
+!		   current text property name is echoed or inquired. The name
+!		   may contain spaces and it must be enclosed in quotes.
+!
+!		g) the default text height for text with this property. The
+!		   height is specified in millimeters(mm) or inches(in).
+!
+!		h) the default visibility, values allowed are either VISIBLE
+!		   or INVISIBLE
+!
+!		i) an entry of SINGLE or MULTIPLE indicating whether multiple
+!		   entries of this string type may be made on symbols or on
+!		   symbol pins.
+!
+!		j) an entry of TEMPLATE or NOTEMPLATE to specify whether, by
+!		   default, strings placed inside a symbol by the symbol editor
+!		   may be edited once the symbol is placed in the schematic. If
+!		   the string is TEMPLATE'd then it may be edited in the
+!		   schematic.
+!
+!		k) the default font name used when placing new instances of
+!		   this text property. 
+!
+!		l) the default color number used when placing new instances of
+!		   this text property.  Please refer to the Mentor Graphics Design
+!                  Capture User's Guide for definition of default colors.
+!
+!               m) the display list field indicates which tools will display the
+!                  the property when presenting lists of property types.
+!                  1 is schematic/symbol editors only,
+!                  2 is PDB Editor Only,
+!                  3 is schematic/symbol editors and PDB Editor,
+!                  4 is Parts Manager Only,
+!                  5 is schematic/symbol editors and Parts Manager,
+!                  6 is PDB Editor and Parts Manager and
+!                  7 is schematic/symbol editors, PM and PDB Editor.
+!
+!               n) the storage type field indicates that the property should be
+!                  converted when stored in the PDB Editor or Parts Manager
+!                  1 indicates it should be stored as an integer
+!                  2 indicates it should be stored as a real
+!                  3 indicates it should remain as a string
+!
+!               o) the transfer field indicates that the property should be
+!                  transferred from the component property in the PDB to
+!                  the schematic by Place Device and Packager.  If this field
+!                  is set to 1, the property will be transferred.  If this
+!                  field is set to 0, it will not be transferred.
+!
+!               p) the ignore notation indicates that dialogs which are
+!                  converting properties based on the user selected notation,
+!                  should not convert properties of this type, but leave them
+!                  as is.  If this field is set to 1, the notation will be
+!                  ignored.  If this field is set to 0, the notation will be
+!		   used.  This field is ignored if item n) above is set to 3.
+!
+!		q) this field controls which subset of dialogs in the editors
+!		   expose the property to the user (Hexadecimal): 
+!			01 is DxDesigner Properties Dialog, Symbol Editor and I/O Designer
+!			02 is DxDesigner Edit Model Properties Dialog and Symbol Editor
+!			03 is DxDesigner Properties dialog, DxDesigner Edit Model Dialog
+!			   and Symbol Editor
+!			04 is reserved
+!			05-07 not used
+!			08 is reserved
+!			09-FF not used
+!
+!
+!               All used text properties need to be defined in this file, and
+!               those that are must have the first twelve entries present.
+!
+!               Each entry on a line is delimited from the next by white space.
+!
+!               Current version of the text properties file.
+*VERSION      16
+!
+*TEXTPROP  221  CELL 132  ".*"  1  "doc_Aproved"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  240  CELL 255  ".*"  1  "doc_Name2"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  241  CELL 255  ".*"  1  "doc_Number_SCH"  0.100in  VISIBLE  MULTIPLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  242  CELL 255  ".*"  1  "doc_Name"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  463  CELL 132  ".*"  1  "doc_Author"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  471  CELL 132  ".*"  1  "doc_Number_PCB"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  472  CELL 132  ".*"  1  "doc_Type"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  473  CELL 132  ".*"  1  "doc_Version"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  1  1  1
+*TEXTPROP  474  CELL 132  ".*"  1  "doc_Implementation"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  1  1  1
+*TEXTPROP  475  CELL 132  ".*"  1  "doc_PCB_Marking"  0.110in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  1  1  1
+*TEXTPROP  476  CELL 132  ".*"  1  "doc_Checked"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  1  1  1
+*TEXTPROP  477  CELL 132  ".*"  1  "doc_N_contr"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  478  CELL 132  ".*"  1  "doc_T_contr"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  479  CELL 255  ".*"  1  "doc_Number_SCH_rotate180"  0.100in  VISIBLE  MULTIPLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
