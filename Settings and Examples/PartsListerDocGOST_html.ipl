@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="3">
+  <Entry name="description" value="Default PL config"/>
+  <Entry name="outputFormat" value="HTML"/>
+  <Entry name="outputFileExt" value="html"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value="&#9;"/>
+  <Entry name="delimiterbefore" value="YES"/>
+  <Entry name="delimiterafter" value="YES"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="&#xD8;&#xE8;&#xF4;&#xF0; &#xF0;&#xE0;&#xE1;&#xEE;&#xF2;&#xFB;:            $(doc_Implementation)"/>
+    <Line text="&#xC8;&#xEC;&#xFF; &#xEF;&#xF0;&#xEE;&#xE5;&#xEA;&#xF2;&#xE0;:              $(NAME)"/>
+    <Line text="&#xC8;&#xEC;&#xFF; &#xF1;&#xF5;&#xE5;&#xEC;&#xFB;:                  $(doc_Name) $(doc_Name2)"/>
+    <Line text="&#xC2;&#xE5;&#xF0;&#xF1;&#xE8;&#xFF; &#xF1;&#xF5;&#xE5;&#xEC;&#xFB;:            $(doc_Version)"/>
+    <Line text="&#xC4;&#xE5;&#xF6;. &#xED;&#xEE;&#xEC;&#xE5;&#xF0; &#xF1;&#xF5;&#xE5;&#xEC;&#xFB;:     $(doc_Number_SCH)"/>
+    <Line text="&#xC2;&#xE0;&#xF0;&#xE8;&#xE0;&#xED;&#xF2; &#xE8;&#xF1;&#xEF;&#xEE;&#xEB;&#xED;&#xE5;&#xED;&#xE8;&#xFF;: $(VARIANT)"/>
+    <Line text="&#xC8;&#xF1;&#xEF;&#xEE;&#xEB;&#xED;&#xE8;&#xF2;&#xE5;&#xEB;&#xFC;:              $(doc_Author)"/>
+    <Line text="&#xCF;&#xF0;&#xEE;&#xE2;&#xE5;&#xF0;&#xE8;&#xEB;:              $(doc_Checked)"/>
+    <Line text="&#xD3;&#xF2;&#xE2;&#xE5;&#xF0;&#xE4;&#xE8;&#xEB;:              $(doc_Aproved)"/>
+    <Line text="&#xCD;&#xEE;&#xF0;&#xEC;&#xEE;&#xEA;&#xEE;&#xED;&#xF2;&#xF0;&#xEE;&#xEB;&#xFC;:              $(doc_N_contr)"/>
+    <Line text="&#xCD;&#xE0;&#xE7;&#xE2;&#xE0;&#xED;&#xE8;&#xE5; &#xEE;&#xF0;&#xE3;&#xE0;&#xED;&#xE8;&#xE7;&#xE0;&#xF6;&#xE8;&#xE8;:                  $(doc_Org) $(doc_Org2)"/>
+    <Line text="&#xCC;&#xE0;&#xF0;&#xEA;&#xE8;&#xF0;&#xEE;&#xE2;&#xEA;&#xE0; &#xEF;&#xEB;&#xE0;&#xF2;&#xFB;:    $(doc_PCB_Marking)"/>
+    <Line text="&#xC4;&#xE5;&#xF6;. &#xED;&#xEE;&#xEC;&#xE5;&#xF0; &#xEF;&#xEB;&#xE0;&#xF2;&#xFB;:     $(doc_Number_PCB)"/>
+    <Line text="&#xC4;&#xE0;&#xF2;&#xE0; &#xF1;&#xEE;&#xE7;&#xE4;&#xE0;&#xED;&#xE8;&#xFF;:          $(DATE) "/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="4"/>
+    <Column type="PROPERTY" property="Part Number" label="Part Number" width="35" justification="LEFT" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="Description" label="Description" width="35" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="Value" label="Value" width="10" justification="LEFT" sort="ASCENDING" priority="-2" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="Manufacturer" label="Manufacturer" width="17" display="Unique"/>
+    <Column type="QUANTITY" label="QTY" width="5" justification="LEFT" sum="YES"/>
+    <Column type="PROPERTY" property="Ref Designator" label="Ref Designator" width="20" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+  </Columns>
+</PartListerConfiguration>

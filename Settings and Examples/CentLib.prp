@@ -1,3 +1,5 @@
+! sccs_id @(#) C:\Users\filipov\Desktop\docgoast\CentLib.prp Wednesday, June 09, 2021 - 10:23
+!
 !	File containing a list of text properties for use in Mentor Graphics Design
 !       Capture.  Lines beginning with an exclamation mark are treated as
 !       comments.
@@ -172,7 +174,49 @@
 !               Current version of the text properties file.
 *VERSION      16
 !
+*TEXTPROP  2  CELL 32  ".*"  1  "Part Name"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  1  1  1
+*TEXTPROP  4  PIN 241  "(\n|,)*"  7  "Pin Number"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  5  CELL 64  ".*"  1  "Value"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  7  2  1  0  3
+*TEXTPROP  10  CELL 32  ".*"  1  "Part Number"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  1  1  1
+*TEXTPROP  13  CELL 127  ".*"  1  "Tolerance"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  0  3
+*TEXTPROP  15  CELL 64  "(\n|-|_|,|\?)*"  1  "Ref Designator"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  23  CELL 12  "\n*"  1  "Frozen Package"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  24  CELL 12  "\n*"  1  "Symbol Alias"  0.040in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  25  CELL 12  ".*"  1  "Simulation Model"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  30  CELL 255  ".*"  1  "CLASS"  0.080in  INVISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  32  CELL 64  ".*"  1  "Description"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  33  CELL 64  "\r"  1  "Cost"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  2  0  1  1
+*TEXTPROP  44  CELL 64  "\n*"  1  "Type"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  0  1  1
+*TEXTPROP  100  PIN 64  "\n*"  1  "Route Order Type"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  107  CELL 64  ".*"  1  "Level"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  108  CELL 32  ".+=.+"  4  "Supply Rename"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  109  CELL 255  ".*"  1  "Verilog Model"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  1  3
+*TEXTPROP  115  CELL 255  ".*"  1  "VHDL Model"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  1  3
+*TEXTPROP  116  PIN 11  ".*"  1  "Routed Plane Pin"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  121  CELL 255  "\r"  1  "LM"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  127  CELL 255  "\r"  1  "A"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  130  CELL 255  "\r"  1  "LG"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  131  CELL 255  "\r"  1  "G"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  134  CELL 255  "\r"  1  "F"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  151  CELL 40  "[^\\!()]*"  1  "Room"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  152  CELL 241  "[^\\!()]*"  7  "Cluster"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  161  CELL 255  "\r"  1  "B"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  162  CELL 255  ".*"  1  "CORE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  2
+*TEXTPROP  163  CELL 255  "\r"  1  "TC"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  166  CELL 255  "\r"  1  "Z0"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  1  0  2
+*TEXTPROP  167  CELL 255  "\r"  1  "TD"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  168  CELL 255  "\r"  1  "NL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  169  CELL 255  "(\n|\.|-)*"  1  "IC"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  3
+*TEXTPROP  170  CELL 255  "\r"  1  "Area"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  172  CELL 255  "\r"  1  "L"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  173  CELL 255  "\r"  1  "W"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  183  CELL 32  ".*"  1  "Part Label"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  1  1  1
+*TEXTPROP  184  PIN|NET 255  ".*"  1  "VHDL Type"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  3
+*TEXTPROP  185  PIN 255  ".*"  1  "VHDL Def Value"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  3
+*TEXTPROP  192  CELL 255  ".*"  1  "IBIS"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  1  1
 *TEXTPROP  221  CELL 132  ".*"  1  "doc_Aproved"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
+*TEXTPROP  222  CELL 132  ".*"  1  "doc_Org"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  3  3  0  1  1
+*TEXTPROP  223  CELL 132  ".*"  1  "doc_Org2"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  3  3  0  1  1
 *TEXTPROP  240  CELL 255  ".*"  1  "doc_Name2"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
 *TEXTPROP  241  CELL 255  ".*"  1  "doc_Number_SCH"  0.100in  VISIBLE  MULTIPLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
 *TEXTPROP  242  CELL 255  ".*"  1  "doc_Name"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
@@ -186,3 +230,145 @@
 *TEXTPROP  477  CELL 132  ".*"  1  "doc_N_contr"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
 *TEXTPROP  478  CELL 132  ".*"  1  "doc_T_contr"  0.100in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  0  1  3  0  1  1
 *TEXTPROP  479  CELL 255  ".*"  1  "doc_Number_SCH_rotate180"  0.100in  VISIBLE  MULTIPLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  514  CELL 255  "\r"  1  "Height"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  6  2  0  1  1
+*TEXTPROP  515  PIN 255  "IN|OUT|BI|TRI|OCL|OEM|POWER|GROUND|ANALOG|TERMINAL"  1  "Pin Type"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  0  1  1
+*TEXTPROP  516  CELL 255  ".*"  1  "Power Dissipation"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  7  2  0  0  1
+*TEXTPROP  517  PIN 132  ".*"  1  "Supply"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  2  3  0  1  1
+*TEXTPROP  518  PIN 132  ".*"  1  "Supply2"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  2  3  0  1  1
+*TEXTPROP  519  CELL 255  ".*"  1  "Tech"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  1  1
+*TEXTPROP  520  CELL 255  "\r"  1  "Underside Space"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  6  2  0  1  1
+*TEXTPROP  521  CELL 255  "\r"  1  "Value2"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  7  2  1  0  3
+*TEXTPROP  522  CELL 255  "\r"  1  "TEMP"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  523  CELL 255  "\r"  1  "DTEMP"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  525  CELL 255  "\r"  1  "Length"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  6  2  0  1  1
+*TEXTPROP  529  CELL 255  ".*"  1  "Unplaced Symbol"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  530  CELL 255  ".*"  1  "Variant Variable Text"  0.080in  VISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  531  CELL 255  ".*"  1  "Variant Info"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  553  CELL 132  ".*"  1  "Reuse Cell Name"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  554  CELL 132  ".*"  1  "Reuse Cell Ref Des"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  565  CELL 32  ".+=.+"  4  "Supply Pin"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  574  CELL 255  ".*"  1  "Parametric"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  0  1
+*TEXTPROP  576  CELL 255  ".*"  1  "FPCPath"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  577  CELL|PIN|NET 255  ".*"  1  "IOD_GENERATED"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  578  PIN 255  ".*"  1  "IOD_PORTID"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  579  PIN 255  ".*"  1  "IOD_PORTTYPE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  580  PIN 255  ".*"  1  "IOD_LABELTYPE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  581  PIN 255  ".*"  1  "IOD_PORTDIR"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  582  PIN 255  ".*"  1  "IOD_SIGNALNAME"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  583  PIN 255  ".*"  1  "IOD_PINNUMBER"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  584  PIN 255  ".*"  1  "IOD_PINNAME"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  585  PIN 255  ".*"  1  "IOD_PINFUNCTION"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  586  PIN 255  ".*"  1  "IOD_CUSTOM"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  587  LOOSE 255  ".*"  1  "IOD_RESERVED_SHEET"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  588  CELL 255  ".*"  1  "IOD_DX_BORDER"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  589  CELL 3  "Yes|No"  1  "Series"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  590  CELL 255  ".*"  1  "RB Layer Map"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  0  3  0  1  1
+*TEXTPROP  591  CELL 255  ".*"  1  "Global Signal Name"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  592  CELL 255  ".*"  1  "Parts"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  596  CELL 255  ".*"  1  "Generator"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  1  2
+*TEXTPROP  599  CELL 255  ".*"  1  "Model"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  1  2
+*TEXTPROP  600  CELL 255  "\i"  1  "No Pins"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  1  1  1  2
+*TEXTPROP  601  CELL 255  ".*"  1  "Order"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  1  3
+*TEXTPROP  603  CELL 255  ".*"  1  "Prefix"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  604  CELL 255  ".*"  1  "Probe"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  1  2
+*TEXTPROP  605  CELL 255  ".*"  1  "Use Verilog"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  1  1  1
+*TEXTPROP  606  CELL 255  ".*"  1  "Spice Lib Path"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  607  CELL 255  ".*"  1  "Spice Subckt"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  608  CELL 255  ".*"  1  "Spice Lib Name"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  609  CELL 255  ".*"  1  "Verilog File"  0.080in  VISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  1  3
+*TEXTPROP  610  CELL 255  ".*"  1  "VHDL File"  0.080in  VISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  1  3
+*TEXTPROP  612  CELL 255  "\r"  1  "PER"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  6  2  0  0  3
+*TEXTPROP  613  CELL 255  "\r"  1  "PW"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  614  CELL 255  "\r"  1  "TF"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  615  CELL 255  "\r"  1  "TR"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  616  CELL 255  "\r"  1  "V0"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  617  CELL 255  "\r"  1  "V1"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  4  2  0  0  2
+*TEXTPROP  619  CELL 255  ".*"  1  "Guess"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  2
+*TEXTPROP  620  CELL 255  ".*"  1  "Node"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  2
+*TEXTPROP  621  CELL 255  ".*"  1  "Node Set"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  1  2
+*TEXTPROP  622  CELL 255  ".*"  1  "Pin Order"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  623  CELL 255  ".*"  1  "Signal"  0.080in  INVISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  628  CELL 255  ".*"  1  "Cell Name"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  629  CELL 255  "True|False"  1  "Part List Exclude"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  630  CELL 64  "\i"  1  "RefDes Incr"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  1  0  1  1
+*TEXTPROP  631  CELL 64  ".*"  1  "RefDes Prefix"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  632  CELL 64  "\i"  1  "RefDes Start"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  1  0  1  1
+*TEXTPROP  633  CELL 64  ".*"  1  "RefDes Suffix"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  634  CELL 7  "True|False|Refresh|Unfixed"  1  "RefDes Renumber"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  635  CELL 255  ".*"  1  "Disable Hierarchy Propagation"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  636  CELL 132  "\i"  1  "Array Component"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  4  3  1  1  1  1
+*TEXTPROP  644  CELL 255  ".*"  1  "SIM_MODEL_FILE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  0  1
+*TEXTPROP  645  CELL 64  ".*"  1  "SIM_MODEL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  0  1
+*TEXTPROP  646  CELL 255  ".*"  1  "Hetero"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  647  CELL 255  "\r"  1  "F_CARRIER"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  648  CELL 255  "\r"  1  "F_MODULATION"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  649  CELL 255  "\r"  1  "F_SIGNAL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  650  CELL 255  "\r"  1  "FREQUENCY"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  651  CELL 255  "\r"  1  "GAIN"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  652  CELL 255  "\r"  1  "I_AMPLITUDE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  653  CELL 255  "\r"  1  "I_FINAL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  654  CELL 255  "\r"  1  "I_INITIAL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  655  CELL 255  "\r"  1  "I_OFFSET"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  656  CELL 255  ".*"  1  "L1"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  657  CELL 255  ".*"  1  "L2"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  658  CELL 255  "\r"  1  "MOD_INDEX"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  659  CELL 255  "\r"  1  "PHASE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  660  CELL 255  "\r"  1  "AC"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  661  CELL 255  ".*"  1  "CTYPE"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  2
+*TEXTPROP  662  CELL 255  "\r"  1  "DAMPING"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  663  CELL 255  "\r"  1  "DC"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  0  0  2
+*TEXTPROP  664  CELL 127  ".*"  1  "ELDO_PARAMS"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  2
+*TEXTPROP  665  CELL 32  "\r"  1  "TC1"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  1  0  2
+*TEXTPROP  666  CELL 32  "\r"  1  "TC2"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  1  0  2
+*TEXTPROP  667  CELL 32  "\r"  1  "TC3"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  2  1  0  2
+*TEXTPROP  668  CELL 5  "Yes|No|Shunt"  1  "Exclude"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  2
+*TEXTPROP  669  CELL 127  ".*"  1  "Simulation Mapping"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  1  0  2
+*TEXTPROP  670  CELL 127  ".*"  1  "VHDL Resolution Function"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  1
+*TEXTPROP  671  CELL 127  ".*"  1  "ADS_MODEL"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  672  CELL 127  ".*"  1  "ADS_MODEL_LIBRARY"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  673  CELL|NET 255  ".*"  4  "XREF"  0.080in  VISIBLE  MULTIPLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  674  CELL 64  ".*"  1  "PrePackage"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  675  CELL 255  ".*"  1  "PropThruHier"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  676  CELL 255  ".*"  1  "StopPropThruHier"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  677  CELL 1  ".*"  1  "Term"  0.080in  VISIBLE  SINGLE  NOTEMPLATE  "DEFAULT"  6  1  3  1  1  1
+*TEXTPROP  678  NET 255  ".*"  1  "Power Supply Net"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  679  CELL 255  ".*"  1  "EPFIXEDLENGTH"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  0  1
+*TEXTPROP  680  CELL 255  ".*"  1  "EPFIXEDWIDTH"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  7  3  1  0  1
+*TEXTPROP  682  CELL 132  ".*"  1  "Xref Annotation"  0.080in  VISIBLE  MULTIPLE  TEMPLATE  "Default"  4  3  3  0  1  1
+*TEXTPROP  683  CELL 64  ".*"  1  "RefDes Page Incr"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  1  0  0  1
+*TEXTPROP  684  LOOSE 5  "True|False"  1  "ExcludeFromPrintout"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  685  CELL 255  ".*"  1  "DXDB_LIBNAME"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  686  CELL 255  ".*"  1  "Connector Id"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  687  CELL 255  "^$|Connector"  1  "Logical System View"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  0  1  1
+*TEXTPROP  688  CELL 255  ".*"  1  "Function ID"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  689  CELL|PIN|NET 255  ".*"  1  "Location ID"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  690  CELL 255  ".*"  1  "Product ID"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  691  CELL 255  "Male|Female"  1  "Connector Gender"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  1  1
+*TEXTPROP  692  CELL 255  ".*"  1  "Connector Mating Part"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  1  1
+*TEXTPROP  693  CELL|NET 255  ".*"  1  "Board"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  0  1  1
+*TEXTPROP  695  CELL 255  ".*"  1  "Pkg Group"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  1  1  1
+*TEXTPROP  696  CELL 132  ".*"  1  "Frozen Pin Count"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  4  3  3  0  1  1
+*TEXTPROP  697  PIN 255  ".*"  1  "FPGA Pin Function"  0.080in  VISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  698  PIN 255  ".*"  1  "FPGA Signal Name"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  699  PIN 255  ".*"  1  "FPGA Pin Name"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  700  CELL 255  ".*"  1  "FPGA Device"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  701  CELL 255  ".*"  1  "FPGA WIP"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  0  3  0  0  1
+*TEXTPROP  702  PIN 255  ".*"  10  "Interconnect Param"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  703  CELL 255  "Yes|No"  1  "Obsolete"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  1  3  0  0  1
+*TEXTPROP  704  CELL 255  ".*"  1  "Classification"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  4  1  3  0  1  1
+*TEXTPROP  705  CELL 255  "^$|Board Connector|Cable Connector|Connector"  1  "System Component"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  4  3  3  1  1  1
+*TEXTPROP  706  PIN 132  ".*"  1  "PinLabel"  0.080in  VISIBLE  SINGLE  TEMPLATE  "Default"  4  3  3  1  1  1
+*TEXTPROP  707  CELL 255  ".*"  1  "Refinement Group"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  4  1  3  1  1  1
+*TEXTPROP  708  CELL 255  ".*"  1  "Refinement Parent"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  4  1  3  1  1  1
+*TEXTPROP  709  CELL 255  ".*"  1  "Action_Hyperlink"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  1  1  1
+*TEXTPROP  710  CELL 255  ".*"  1  "Fracture Number"  0.080in  INVISIBLE  SINGLE  NOTEMPLATE  "Default"  6  1  3  0  1  1
+*TEXTPROP  711  CELL 255  ".*"  1  "PADS_ECO_REGISTERED"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  4  2  3  0  1  1
+*TEXTPROP  712  CELL 255  ".*"  1  "Power Consumption"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  713  CELL 255  ".*"  1  "Thermal Dissipation"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  714  CELL 255  ".*"  1  "Weight"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  715  NET 255  ".*"  1  "Bit Size"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  716  NET 255  ".*"  1  "Multiplexed"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  717  NET 255  ".*"  1  "Signal Frequency"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  0  1  1
+*TEXTPROP  718  NET 255  ".*"  1  "Maximum Latency"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  4  1  3  1  1  1
+*TEXTPROP  719  CELL 255  ".*"  1  "FPGA Symbol Name"  0.080in  VISIBLE  SINGLE  TEMPLATE  "DEFAULT"  6  1  3  0  1  1
+*TEXTPROP  720  CELL 255  ".*"  1  "Part Number NP"  0.080in  INVISIBLE  SINGLE  TEMPLATE  "Default"  6  3  3  0  1  1
