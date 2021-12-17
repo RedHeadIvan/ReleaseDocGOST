@@ -1,0 +1,79 @@
+# Bill of Materials - Other Components
+# date: Wed Jul 07 16:00:41 2021
+
+
+
+  ITEM_NUMBER   COMPANY PART NO        GEOMETRY             COUNT   DESCRIPTION                             REFERENCE NAME              COMMENT   
+
+  1             744778004              WURTH_IND_7332_4.7   1       FIXED IND 4.7UH 2.32A 60 MOHM, Wurth,   L1                          ---       
+                                                                    744778004, 4,7uH                                                              
+  2             CC0603KRX5R9BB105      C_0603               2       CAP CER 1UF 50V X5R 0603, Yageo,        C21 C26                     ---       
+                                                                    CC0603KRX5R9BB105, 1uF                                                        
+  3             CC0603KRX7R9BB104      C_0603               4       CAP CER 0.1UF 50V X7R 0603, Yageo,      C4 C16 C18 C20              ---       
+                                                                    CC0603KRX7R9BB104, 0,1uF                                                      
+  4             CC0603KRX7R9BB152      C_0603               1       CAP CER 1500PF 50V X7R 0603, Yageo,     C28                         ---       
+                                                                    CC0603KRX7R9BB152, 0,0015uF                                                   
+  5             CL21A106KAYNNNE        C_0805               1       CAP CER 10UF 25V X5R 0805,              C23                         ---       
+                                                                    Samsung Electro-Mechanics,                                                    
+                                                                    CL21A106KAYNNNE, 10uF                                                         
+  6             CWF-4                  CWF-4                1       CONN HEADER 4POS 2.5MM, CONNFLY, CWF-4  X2                          ---       
+  7             DS1031-01-1x6 P8BV31   DS1031-01-1*6        1       CONN HEADER PLL 6 POS TH, CONNFLY,      X1                          ---       
+                                                                    DS1031-01-1x6 P8BV31                                                          
+  8             GCM188L81H104KA57      C_0603               1       CAP CER 0.1UF 50V X8L 0603, Murata,     C22                         ---       
+                                                                    GCM188L81H104KA57, 0,1uF                                                      
+  9             GCM188R71C334KA37      C_0603               1       CAP CER 0.33UF 16V X7R 0603, Murata,    C2                          ---       
+                                                                    GCM188R71C334KA37, 0,33uF                                                     
+  10            GRM1887U1H103JA01D     C_0603               6       CAP CER 0.01UF 50V U2J 0603, Murata,    C5 C6 C8 C10 C12 C14        ---       
+                                                                    GRM1887U1H103JA01D, 0,01uF                                                    
+  11            GRM188R61C225KE15D     C_0603               1       CAP CER 2.2UF 16V X5R 0603, Murata,     C27                         ---       
+                                                                    GRM188R61C225KE15D, 2,2uF                                                     
+  12            GRM188R61E225KA12D     C_0603               2       CAP CER 2.2UF 25V X5R 0603, Murata,     C24 C25                     ---       
+                                                                    GRM188R61E225KA12D, 2,2uF                                                     
+  13            GRM188R61H105KAALD     C_0603               5       CAP CER 1UF 50V X5R 0603, Murata,       C7 C9 C11 C13 C15           ---       
+                                                                    GRM188R61H105KAALD, 1uF                                                       
+  14            GRM21BR61C475KA88L     C_0805               1       CAP CER 4.7UF 16V X5R 0805, Murata,     C19                         ---       
+                                                                    GRM21BR61C475KA88L, 4,7uF                                                     
+  15            GRM31CR61A476ME15L     C_1206               1       CAP CER 47UF 10V X5R 1206, Murata,      C3                          ---       
+                                                                    GRM31CR61A476ME15L, 47uF                                                      
+  16            GRM31CR61C226KE15L     C_1206               1       CAP CER 22UF 16V X5R 1206, Murata,      C1                          ---       
+                                                                    GRM31CR61C226KE15L, 22uF                                                      
+  17            GRM31CR61E226KE15L     C_1206               1       CAP, CER, 22UF, 25V, X5R, 1206,         C17                         ---       
+                                                                    Murata, GRM31CR61E226KE15L, 22uF                                              
+  18            L78L33ABUTR            ST_SOT-89            1       IC REG LINEAR 3.3V 100MA SOT89-3,       D1                          ---       
+                                                                    STMicroelectronics, L78L33ABUTR                                               
+  19            LMV721M5/NOPB          SOT-23-5             1       IC OPAMP GP 10MHZ RRO SOT23-5,          D7                          ---       
+                                                                    Texas Instruments, LMV721M5/NOPB                                              
+  20            MCP4531-103E/MS        MSOP-8               1       IC DGTL POT 10K 129TAPS 8-MSOP,         D5                          ---       
+                                                                    Microchip Technology, MCP4531-103E/MS                                         
+  21            MM3Z5V1ST1G            ONSem_SOD-323        2       DIODE ZENER 5.1V 300mW SOD323,          VD2 VD3                     ---       
+                                                                    ON Semiconductor, MM3Z5V1ST1G                                                 
+  22            PLTU0603U1501LST5      R_0603               2       RES SMD 1.5K OHM 0.01% 0.15W 75V 0603,  R7 R15                      ---       
+                                                                    Vishay, PLTU0603U1501LST5, 1,5Kohms                                           
+  23            RC0603FR-077K87L       R_0603               1       RES SMD 7.87K OHM 1% 1/10W 0603,        R8                          ---       
+                                                                    Yageo, RC0603FR-077K87L, 7,87Kohms                                            
+  24            RC0603JR-07100KL       R_0603               2       RES SMD 100K OHM 5% 1/10W 0603, Yageo,  R3 R14                      ---       
+                                                                    RC0603JR-07100KL, 100Kohms                                                    
+  25            RC0603JR-0710KL        R_0603               3       RES SMD 10K OHM 5% 1/10W 0603, Yageo,   R11 R13                     ---       
+                                                                    RC0603JR-0710KL, 10Kohms                                                      
+  26            RC0603JR-074K7L        R_0603               2       RES SMD 44.7 OHM 5% 1/10W 0603, Yageo,  R1 R2                       ---       
+                                                                    RC0603JR-074K7L, 4,7Kohms                                                     
+  27            RC0603JR-0751KL        R_0603               3       RES SMD 51K OHM 5% 1/10W 0603, Yageo,   R16 R17 R18                 ---       
+                                                                    RC0603JR-0751KL, 51Kohms                                                      
+  28            RC0603JR-075K1L        R_0603               1       RES SMD 5.1K OHM 5% 1/10W 0603, Yageo,  R6                          ---       
+                                                                    RC0603JR-075K1L, 1ohm                                                         
+  29            RC0805JR-0720RL        R_0805               2       RES SMD 20 OHM 5% 1/8W 0805, Yageo,     R9 R10                      ---       
+                                                                    RC0805JR-0720RL, 20ohms                                                       
+  30            RS-03K511JT            R_0603               2       RES SMD 510 OHM 5% 1/10W 0603,          R4 R5                       ---       
+                                                                    Fenghua, RS-03K511JT, 510ohms                                                 
+  31            SSM2305RMZ-REEL7       MSOP-8               1       IC AMP AUDIO 2.8W MONO D 8MSOP,         D6                          ---       
+                                                                    Analog Devices Inc., SSM2305RMZ-REEL7                                         
+  32            ST1S10PHR              ST_PWRSO-8_Tab       1       IC REG BUCK ADJ 3A SYNC PWRSO-8,        D3                          ---       
+                                                                    STMicroelectronics, ST1S10PHR                                                 
+  33            ST3485ECDR             ST_SO8N              1       IC TXRX RS422/485 15MBPS 8SO,           D4                          ---       
+                                                                    STMicroelectronics, ST3485ECDR                                                
+  34            STM32L433CCT6          ST_LQFP-48           1       IC MCU 32BIT 256KB FLASH 48LQFP,        D2                          ---       
+                                                                    STMicroelectronics, STM32L433CCT6                                             
+  35            STPS140Z               ST_SOD-123           1       DIODE SCHOTTKY 40V 1A SOD123,           VD1                         ---       
+                                                                    STMicroelectronics, STPS140Z                                                  
+
+

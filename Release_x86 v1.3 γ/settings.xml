@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ApplicationSettings>
+  <element Font="GOST_type_A" />
+  <element delimiter="comma" />
+  <element spacer="ellipsis" />
+  <element clearDelimiter="true" />
+  <element addRegistration="true" />
+  <element additionalGraphs="false" />
+  <element appendImport="true" />
+  <element underlineCategory="false" />
+  <element soglInTable="false" />
+  <element noteAlign="alignLeft" />
+  <element fearSpacers="false" />
+  <element everyPageVedName="false" />
+  <element descAddDocument="false" />
+  <element specVariantExclude="false" />
+  <element perExcludePropName="perExclude" />
+  <element specExcludePropName="specExclude" />
+  <element vedExcludePropName="vedExclude" />
+  <element vedRegulatingPercentage="0" />
+  <element registrationType="GOST_2_503_90" />
+</ApplicationSettings>
